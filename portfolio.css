@@ -1,0 +1,100 @@
+.container1{
+    display: flex;
+    flex-direction: row;
+    /* flex-wrap: nowrap; */
+    padding: 15px;
+}
+#img1{
+    height: 35px;
+    margin-right: 5px;
+}
+#img1:hover{
+    height: 50px;
+}
+#name{
+    line-height: 15px;
+    text-transform: capitalize;
+    font-size: 40px;
+    font-style: normal;
+}
+.lnkcon  a {
+    text-decoration: none;
+    color: black;
+    list-style-type: none;
+}
+.lnkcon a:hover {
+    color: blue;
+    border-bottom: 3px blue solid;
+}
+.lnk{
+    margin-right: 40px;
+}
+#nav{
+    flex-grow: 3;
+    margin-left: 65px;
+}
+.lnkcon{
+    margin-top: 10px;
+}
+.container2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    padding: 95px;
+    flex-grow: 3;
+    background-image: url("images/ba2.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+h1 span{
+    color: orange;
+}
+h3 span{
+    color: brown;
+}
+#about{
+    color: white;
+    background-color: blue;
+    height: 40px;
+    width: 130px;
+    border-radius: 20px;
+    line-height: 15px;
+    border-color: blue;
+    margin-top: 15px;
+    outline: none;
+    transition: 1s ease-in;
+}
+#about:hover{
+    height: 50px ;
+    width: 150px;
+    border-radius: 30px;
+    border-color: red;
+    background-color: red;
+    transition: 1s;
+    cursor: pointer;
+}
+.img_lnk{
+    height: 40px;
+    border: 1px solid;
+    border-color: black;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+.img_lnk:hover{
+    height: 60px;
+}
+#habeeb{
+    border: 1px solid;
+    border-radius: 100%;
+    height: 330px;
+    width: 310px;
+    margin-left: 500px;
+    margin-top: 20px;
+    box-shadow: 2px 4px 6px black;
+    border: none;
+}
+#lnks{
+    margin-top: 40px;
+}
+
